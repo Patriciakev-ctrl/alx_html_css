@@ -9,7 +9,7 @@
 We will apply and use advanced CSS concepts.
 
 To get this result:
-![web site result](./css_advanced/School%20Page@2x.png)
+![web site result](./css_advanced/images/School%20Page@2x.png)
 
 ## HEADPHONES : Apply both your HTML and CSS knowledge
 
