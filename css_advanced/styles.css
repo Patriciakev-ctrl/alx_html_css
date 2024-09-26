@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Sans Source Pro";
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+@font-face {
+    font-family: "Spin Cycle";
+    src: url("../fonts/spincycle_ot.otf");
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:  "Sans Source Pro", "Spin Cycle" ;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: relative; /* Set position to relative */
+}
+main section:first-child{
+    width: 100%;
+    height: 80em;
+    position: relative; /* Set position to relative */
+    margin-top: -5px; /* This brings the element2 closer to element1 */
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.container{
+    background-image: url('./background.png') ;/* Replace with your image URL */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    width: 100em;
+    height: 90em;
+    position: absolute; /*Position it over the container */
+    top: 0; /* Set to top of container */
+    left: 0; /* Set to left of container */
+    z-index: 0; /* Set it below the elements */
+}
+nav{
+    display: flex;    /* Use flexbox layout */
+    justify-content: space-between; /* Space between the logo and menu */
+    align-items: center; /* Center items vertically */
+    padding: 0px 100px; /* Padding around the navbar */
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px;
+    text-decoration: none;
+    color: white;  
+}
+nav ul li a{
+    color: white; /* Couleur du texte */
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none; /* Retire le soulignement */
+    text-transform: uppercase;
+    transition: all 1s ease-out;/* Transition pour l'effet au survol */  
+}
+header nav img{
+    cursor: pointer;
+}
+main section:first-child div h1{
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 10px;
+
+}
+main section:first-child div span{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 50px;
+}
+main section:first-child div button{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(194, 113, 255);
+    color: white;
+    box-shadow: inset;
+    cursor: pointer; /* Changement de curseur */
+    box-shadow: 0 4px 8px rgba(24, 23, 23, 0.2); /* Ombre */
+    transition: box-shadow 0.3s ease; /* Effet de transition */
+    padding: 15px 25px;
+    border: none;
+}
+main section:first-child div h2 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+#word{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: rgb(194, 113, 255) ;
+    margin-right: -40px;
+}
+#avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 100px; /* Padding around the line of image */
+}
+#avatar p{
+    width: 150px;
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 16px;
+}
+#avatar h3{
+    font-size: 18px;
+}
+main #quote{
+    background-color: rgb(194, 113, 255);
+    height: 25em;
+    margin-top: -35px;
+    color: white;
+    font-size: 22px;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+}
+#quote div img{
+    padding: 0px 100px;
+}
+#testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-right: 250px;
+    font-size: 22px;
+}
+#testimonial blockquote{
+    margin-left: -5px;
+}
+#testimonial p{
+    font-style: italic;
+    margin-top: -5px;
+}
+#tutorial h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 32px;
+
+}
+#tuto-container{
+    display: flex;
+    flex-direction: row;
+}
+.tuto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    padding: 20px;
+}
+.tuto:first-child{
+    padding-left: 100px;
+}
+.tuto:last-child{
+    padding-right:100px;
+}
+.tuto>img{
+    width: 70%;
+}
+.tuto h3{
+    font-size: 16px;
+}
+.tuto p{
+    font-size: 14px;
+}
+.tuto h4, .duration, #tutorial span{
+    color:  rgb(194, 113, 255);
+}
+.tuto div{
+display: flex;
+flex-direction: row;
+}
+.tuto div img[alt=""]{
+    padding-right: 35px;
+    border-radius: 20px 20px 20px 20px;
+}
+.icon>p{
+    padding-left: 200px;
+}
+
