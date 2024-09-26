@@ -27,7 +27,7 @@ main section:first-child{
     text-align: center;
 }
 .container{
-    background-image: url('./background.png') ;/* Replace with your image URL */
+    background-image: url('./images/background.png') ;/* Replace with your image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image */
     width: 100em;
