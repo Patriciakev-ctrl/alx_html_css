@@ -26,14 +26,13 @@ main section:first-child{
     padding-bottom: 0px;
     text-align: center;
 }
-
 .container{
     background-image: url('./background.png') ;/* Replace with your image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image */
     width: 100em;
     height: 90em;
-    position: absolute; /*Position it over the container */
+    position: relative; /*Position it over the container */
     top: 0; /* Set to top of container */
     left: 0; /* Set to left of container */
     z-index: 0; /* Set it below the elements */
@@ -87,12 +86,12 @@ main section:first-child div button{
     border: none;
 }
 main section:first-child div h2 {
-    margin-top: 150px;
+    margin-top: 300px;
     margin-bottom: 50px;
     font-size: 32px;
 }
 #word{
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 50px;
     font-size: 32px;
     color: rgb(194, 113, 255) ;
@@ -115,7 +114,7 @@ main section:first-child div h2 {
 }
 main #quote{
     background-color: rgb(194, 113, 255);
-    height: 25em;
+    height: 15em;
     margin-top: -35px;
     color: white;
     font-size: 22px;
@@ -187,4 +186,114 @@ flex-direction: row;
 .icon>p{
     padding-left: 200px;
 }
+#membership{
+    background-color: rgb(7, 22, 41);
+    height: 35em;
+    padding-top: 10px;
+    text-align: center;
+}
+#member-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.member:first-child{
+    padding-left: 150px;
+}
+.member:last-child{
+    padding-right: 150px;
+}
+#member-container p{
+    width: 150px;
+}
+#membership h2{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+#membership h2 span{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: rgb(194, 113, 255) ;
+    margin-right: 3px;
+}
+#membership button{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(194, 113, 255);
+    color: white;
+    box-shadow: inset;
+    cursor: pointer; /* Changement de curseur */
+    box-shadow: 0 4px 8px rgba(24, 23, 23, 0.2); /* Ombre */
+    transition: box-shadow 0.3s ease; /* Effet de transition */
+    padding: 15px 25px;
+    border: none; 
+}
+#faq{
+    text-align: center;
+    margin-top: 80px;
+}
+#faq h1{
+    font-size: 60px;
+}
+#faq-row{
+    display: flex;
+    flex-direction: row;
+}
+.faq-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px;
+}
+.faq-column div{
+    text-align: justify;
+    width: 350px;
+}
+.faq-column:first-child{
+    padding-left: 300px;
+}
+.faq-column:last-child{
+    padding-left: 300px;
+}
+.top-column{
+    padding-bottom: 100px;
+}
+.faq-column h3{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.faq-column h3 div{
+    font-size: 14px;
+}
+footer section{
+    position: relative; /* Changez fixed en relative ou static */
+    bottom: 0; /* Vous pouvez ajuster ceci selon votre mise en page */
+    top: 0;
+    width: 100%; /* Pour que le footer prenne toute la largeur */
+    background-color: rgb(7, 22, 41);
+    height: 100%;
+    margin-top: 200px;
+}
+footer section div{
+    display: flex;    /* Use flexbox layout */
+    justify-content: space-between; /* Space between the logo and menu */
+    align-items: center; /* Center items vertically */
+    padding: 50px 100px; /* Padding around the navbar */
+}
+footer section p{
+    font-size: 12px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
 
