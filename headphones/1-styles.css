@@ -74,13 +74,14 @@ nav ul li a{
 header nav img{
     cursor: pointer;
 }
-main section:first-child h1{
+.title{
     text-align: center;
     font-size: 80px;
     margin-bottom: 50px;
-    margin-top: 450px;
+    margin-top: 500px;
 
 }
+
 main section:first-child div p{
     font-size: 16px;
     font-weight: bold;
@@ -189,4 +190,32 @@ main section:first-child button{
     .container{
       background-position: center;
     }
+}
+.other-section{
+  color: black;
+}
+
+main section .first-div p{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 50px;
+  display: block;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#avatar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 100px; /* Padding around the line of image */
+  margin-top: 100px;
+}
+#avatar p{
+  width: 150px;
+  font-style: italic;
+  font-size: 16px;
+}
+#avatar h3{
+  font-size: 18px;
 }
